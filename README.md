@@ -19,3 +19,19 @@
         -HTTPs
         -Tree Shaking-remove unused code
         -Different dev and prod bundles </p>
+
+
+HEADER
+    -logo
+    -nav Items
+BODY
+    -Search bar
+    -restaurentContainer
+    -restaurentCard
+          -img
+          -Name, stars, etc
+FOOTER
+    -copyright
+    -links
+    -address
+    -contacts
