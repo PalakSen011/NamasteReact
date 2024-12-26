@@ -8,7 +8,8 @@
   .filter {
     margin-bottom: 20px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+
   }
   
   .filter-btn {
@@ -24,5 +25,37 @@
   
   .filter-btn:hover {
     background-color: yellowgreen;
+  }
+
+  .search-box {
+    height: 35px;
+    width: 200px; /* Adjust width based on your layout */
+    padding: 5px 10px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    margin-right: 10px;
+  }
+  
+  .search-box:focus {
+    border-color: chocolate;
+    box-shadow: 0 0 5px rgba(210, 105, 30, 0.5); /* Adds a slight glow */
+  }
+  
+  .search-btn {
+    padding: 10px 15px;
+    background-color: chocolate;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .search-btn:hover {
+    background-color: greenyellow;
   }
   
